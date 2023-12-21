@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="/update1">
+    <table>
+        <tr>
+            <th>fullname</th>
+            <td><input type="text" name="fullname" value=" {{data[0]}}" placeholder="fullname"></td>
+
+        </tr>
+        <tr>
+            <th>age</th>
+        <td><input type="text" name="age" value=" {{data[1]}}" placeholder="age"></td>
+        </tr>
+        <tr>
+            <th>rno</th>
+        <td><input type="text" name="rno" value=" {{data[2]}}" placeholder="rno"></td>
+        </tr>
+
+        <td>
+            <input type="submit" value="update">
+        </td>
+
+    </table>
+
+</form>
+</body>
+</html>
